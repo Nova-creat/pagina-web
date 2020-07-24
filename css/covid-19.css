@@ -1,0 +1,297 @@
+/*estilos generales*/
+
+*{
+  margin:0;
+  padding: 0;
+
+  box-sizing: border-box;
+
+}
+
+body{
+  font-family: sans-serif;
+
+}
+
+
+/*boton inicio*/
+.inicio {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0px 0;
+}
+.inicio .boton {
+    display: inline-block;
+    padding: 6px;
+    width: 128px;
+    font-weight: 300;
+    border: 2px solid #9B0000 ;
+    color: rgb(24, 16, 16);
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 18px;
+    margin-top: 10px;
+}
+
+
+/**/
+
+.contenedor{
+color: #000;
+/*ackground: #0f222b;*/
+position: relative;
+text-align: center;
+  width: auto;
+
+}
+
+
+/*posicion del marco y letra covid-19*/
+.header .top-header .contenedor .menu
+{
+  position: absolute;
+  top: 9px;
+  left: 15px;
+  right: 15px;
+  bottom: 7px;
+  border:2.7px solid #fff ;
+
+}
+
+
+
+.header .top-header .contenedor .redes img{
+  width: 150px;
+  /*redondear imagen*/
+  border-radius:20%;
+  color: #000;
+}
+
+.header .top-header .contenedor .redes
+{
+  position: absolute;
+  top: 7px;
+  left:9px;
+  right: 10px;
+
+
+
+}
+
+.header .top-header .contenedor{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+
+/*header*/
+.header .top-header{
+
+  padding: 15px 0;
+  font-size: 15px;
+  border-bottom: 1px solid #f0f0f0;
+  background: black;
+  background-color: #009999;
+  /*overflow: hidden;*/
+  position: relative;
+  }
+
+  /*top menu*/
+  .header .top-header .contenedor .menu{
+    float: left;
+  }
+
+  .header .top-header .contenedor .menu ul{
+    list-style: none;
+  }
+
+
+  .header .top-header .contenedor .menu ul li{
+  float: left;
+  }
+
+  /*letra de COVID-19*/
+  .header .top-header .contenedor .menu ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 25px;
+  margin: auto;
+  text-align: center;
+  display: inline-block;
+  float: left;
+  font-size: 60px;
+
+  }
+
+  .header .top-header .contenedor .menu ul li a:hover{
+  color: green;
+  }
+
+
+
+
+
+
+
+/*cabiar top-redes*/
+.header .top-header .contenedor .redes{
+  float: left;
+}
+
+.header .top-header .contenedor .redes ul{
+  list-style: none;
+}
+
+
+.header .top-header .contenedor .redes ul li{
+float: right;
+}
+.header .top-header .contenedor .redes ul li a{
+text-decoration: none;
+color: #fff;
+padding: 10px 15px;
+display: inline-block;
+}
+
+.header .top-header .contenedor .redes ul li a:hover{
+color: red;
+}
+
+
+
+.Titulo-blog{
+  margin:35px 0;
+  text-align: center;
+
+}
+.Titulo-blog .Contenedor h1 a{
+  text-decoration: none;
+  color: #363940;
+  display: inline-block;
+  padding: 30px;
+  font-weight: 300;
+}
+
+.Titulo-blog .Contenedor h1 a:hover{
+color: green;
+}
+
+.Titulo-blog .Contenedor .SUBTITULO{
+  font-size: 16PX;
+  letter-spacing: 1PX;
+  color: #C7C7C7;
+}
+
+
+
+/*imagen principal covid-19*/
+
+.main .banner {
+  padding-bottom: 20px;
+  border-bottom: 2px solid #f0f0f0;
+}
+.main .banner .contenedor .banner-principal{
+  width: 100%;
+}
+.main .banner .contenedor .banner-principal img{
+  width: 100%;
+}
+
+/*blog*/
+.blog1
+{
+
+  background: #00ADD7 ;
+  padding: 40px 0;
+
+}
+.blog1 .contenedor{
+  overflow: hidden;
+
+}
+
+/*articulo blog*/
+.blog1 .contenedor .articulo-blog{
+  float: left;
+  width:auto;
+
+
+
+}
+
+.blog1 .contenedor .articulo-blog .articulo{
+background: #fff;
+padding: 60px 0;
+
+margin-bottom: 20px;
+
+}
+
+.blog1 .contenedor .articulo-blog .articulo .fecha-articulo{
+color: #c7c7c7;
+font-size:16px;
+text-align: center;
+margin-bottom: 40px;
+}
+
+.blog1 .contenedor .articulo-blog .articulo .titulo-articulo{
+color: #363940;
+font-size: 20px;
+text-align: center;
+margin-bottom: 51px;
+
+}
+
+
+
+.blog1 .contenedor .articulo-blog .articulo .categoria-articulo{
+color: #9c9c9c;
+font-size: 20px;
+font-weight: bold;
+text-align: center;
+margin-bottom: 62px;
+}
+
+.blog1 .contenedor .articulo-blog .articulo img{
+width: 100%;
+margin-bottom: 20px;
+}
+
+.blog1 .contenedor .articulo-blog .articulo .texto-articulo{
+padding: 0 20px;
+text-align: justify;
+
+}
+
+.blog1 .contenedor .articulo-blog .articulo .texto-articulo p{
+margin-bottom: 20px;
+color: #363940;
+}
+
+
+
+
+
+/*footer*/
+
+.footer{
+  background: #fff;
+  padding: 40px;
+  border:1px solid #f0f0f0;
+  text-align: center;
+  color: #9c9c9c;
+  text-decoration-color: #000;
+}
+/******/
+
+
+
+
+/******/
+/*****/
+/*****/
