@@ -50,6 +50,7 @@ header .boton {
     border-radius: 16px;
 }
 
+/*efecto foto inicial*/
 .sesgoabajo {
     z-index: 10;
     position: absolute;
